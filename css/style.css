@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;0,900;1,800&display=swap');
+
+/* basic css */
+*{
+    box-sizing: border-box;
+    padding: none;
+    margin: none;
+    outline: none;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+::after, ::before{
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul, li{
+    list-style: none;
+}
+
+h1, h2, h3, p, a{
+    color: #ffffff;
+}
+
+h1, h2, h3, p {
+    font-family: Montserrat;
+}
+
+/* basic css ends*/
+
+
+/* header starts */
+.header{
+    width: 100%;
+    position: absolute;
+    margin: auto;
+}
+
+.logo-nav{
+    max-width: 1180px;
+    display: flex;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.logo{
+    width: 100px;
+}
+
+.logo:hover{
+    transform: scale(1.1);
+}
+
+.header .nav-bar{
+    margin-left: auto;
+}
+
+.nav-bar ul li{
+    display: inline-block;
+}
+
+.header ul a{
+    margin: 0 30px;
+    font-family: sans-serif;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.nav-bar ul a:hover{
+    color: yellowgreen;
+}
+
+/* header ends */
+
+
+/* Banner starts */
+.banner{
+    background: url(../images/5175978-1.jpg) no-repeat center center/cover;
+    max-width: 1280px;
+    margin: auto;
+}
+
+.container{
+    max-width: 1180px;
+    margin: auto;
+    padding-top: 200px;
+}
+/* banner ends */
+
+
+/* body content starts */
+.body-content{
+    display: flex;
+    padding-bottom: 40px;
+}
+
+.right-content{
+    margin-left: auto;
+    width: 20%;
+    text-align: right;
+}
+
+.left-content{
+    width: 50%;
+}
+
+.left-content h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 8px;
+}
+
+.left-content h3{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.left-content .btn{
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.left-content .btn:hover{
+    color: aqua;
+}
+.left-content i{
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 50%;
+    font-size: 15px;
+    padding: 3px;
+    margin: 0 10px;
+}
+/* body content ends  */
+
+
+
+/* Social links */
+.social-links{
+    padding-bottom: 50px;
+    text-align: right;
+}
+
+.social-links a{
+    padding: 5px 7px;
+    color: rgb(43, 11, 11);
+    background: white;
+    border-radius: 15px;
+    text-align: center;
+    margin: 3px;
+    transition: 0.3s;
+}
+
+.social-links a:hover{
+    color: chartreuse;
+    background: #22669e
+}
+/* social links ends */
